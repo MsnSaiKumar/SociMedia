@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "448727670662",
+    "firebase_url": "https://socimedia-204f7.firebaseio.com",
+    "project_id": "socimedia-204f7",
+    "storage_bucket": "socimedia-204f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448727670662:android:aad4d164967d41b2",
+        "android_client_info": {
+          "package_name": "com.example.socimedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448727670662-o4inn05psmo94naglpngkucrk7pr8prn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socimedia",
+            "certificate_hash": "661be27a5c585049c52ff0fbf3df91f526afb024"
+          }
+        },
+        {
+          "client_id": "448727670662-dq1p08uoucdu1rr44t31li7jglb6qa8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMtlatTDBXwhPF4u1DtxULvUD8Y9GKdcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448727670662-dq1p08uoucdu1rr44t31li7jglb6qa8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

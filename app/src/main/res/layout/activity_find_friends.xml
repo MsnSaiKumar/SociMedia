@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black1"
+    tools:context=".FindFriendsActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/app_bar_layout1"
+        />
+
+    <RelativeLayout
+
+        android:id="@+id/myLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="15dp"
+
+        >
+        <TextView
+            android:id="@+id/find_friends_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search for people and friends from school,college And university"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="30dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:id="@+id/find_friends_Search"
+            android:background="@drawable/input"
+            android:hint="Search here"
+            android:layout_below="@id/find_friends_textview"
+            android:layout_marginLeft="40dp"
+            />
+        <ImageButton
+            android:id="@+id/find_search_btn"
+            android:layout_width="60dp"
+            android:layout_height="75dp"
+            android:src="@drawable/search"
+            android:background="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/find_friends_Search"
+            android:layout_below="@id/find_friends_textview"
+        />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/search_result_list"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/find_friends_Search"
+            android:layout_margin="10dp"
+            ></androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

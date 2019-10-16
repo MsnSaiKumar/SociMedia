@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ClickPostActivity">
+
+    <ImageView
+        android:id="@+id/click_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/click_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:text="PostDescription"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+
+         />
+
+    <Button
+        android:id="@+id/click_edit_btn"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:background="@drawable/input2"
+       />
+
+    <Button
+        android:id="@+id/click_delete_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:background="@drawable/input2"
+        android:layout_marginTop="20dp"
+      />
+</LinearLayout>
